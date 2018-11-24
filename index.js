@@ -19,6 +19,10 @@ function nodeAt(index, linkedList, collection){
   return currentNode
 }
 
+function addressAt(index, linkedList, collection){
+  let current
+}
+
 function indexAt(node, collection, linkedList) {
   let currentNode = headNode(linkedList, collection); 
   let currentIndex = 0 
