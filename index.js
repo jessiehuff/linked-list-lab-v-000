@@ -20,7 +20,7 @@ function nodeAt(index, linkedList, collection){
 }
 
 function addressAt(index, linkedList, collection){
-  let current
+  
 }
 
 function indexAt(node, collection, linkedList) {
