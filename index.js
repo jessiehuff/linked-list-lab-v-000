@@ -20,7 +20,12 @@ function nodeAt(index, linkedList, collection){
 }
 
 function addressAt(index, linkedList, collection){
-  
+  if (index === 0){
+    return linkedList
+  } else {
+    let node = nodeAt(index, linkedList, collection)
+    return node.next
+  }
 }
 
 function indexAt(node, collection, linkedList) {
